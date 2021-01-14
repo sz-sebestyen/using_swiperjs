@@ -37,10 +37,15 @@ function _load() {
 		//direction: 'vertical',
 		direction: 'horizontal',
 		loop: false,
+
+		// custom
+		speed : 800,
+		mousewheel : true,
 	
 		// If we need pagination
 		pagination: {
 			el: '.swiper-pagination',
+			clickable: true,
 		},
 	
 		// Navigation arrows
